@@ -1,0 +1,7 @@
+# A basic configuration file for an mmtr instance.
+# This must be a directory which is accessible by both consumers and producers.
+# The home directory is used for both producers and consumers -- this is where
+# the producer saves information about tasks which can be ran and assigns work
+# to the consumers. This should be a location such as a network share/global
+# file system.
+home: ../mmtr-home
